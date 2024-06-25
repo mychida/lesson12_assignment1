@@ -9,7 +9,7 @@ public class Lambda {
 
 	public static void main(String[] args) {
 		IntStream stream = IntStream.range(1, 10000);
-		stream.forEach(i -> System.out.println(stream)); //stream.forEach(① ② System.out.println(③));
+		stream.forEach(i -> System.out.println(i)); //stream.forEach(① ② System.out.println(③));
 
 	}
 
